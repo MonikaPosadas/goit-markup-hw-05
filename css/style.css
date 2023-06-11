@@ -224,6 +224,17 @@ li {
   justify-content: space-between;
   padding: 0;
 }
+.images-service-overlay {
+  position: absolute;
+  margin-top: 224px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--color-secondary);
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
 .section-team-images {
   background-color: var(--background-color-medium);
   padding-top: 94px;
@@ -511,7 +522,7 @@ li {
   padding-top: 49px;
   padding-right: 45px;
   padding-bottom: 49px;
-  transition-duration: 250ms;
+  transition-duration: 250ms ease-in-out;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
 }
