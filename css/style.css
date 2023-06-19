@@ -26,6 +26,8 @@ li {
 }
 .link-header :focus {
   color: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-view {
   border-bottom: 1px solid #ececec;
@@ -87,6 +89,8 @@ li {
 }
 .menu-link:hover {
   color: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-contact-list {
   display: flex;
@@ -107,9 +111,13 @@ li {
 }
 .menu-contact-link:hover .contact-label {
   color: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-contact-link:hover svg {
   fill: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo {
   font-family: "Raleway";
@@ -132,6 +140,8 @@ li {
   color: var(--color-secondary);
   cursor: pointer;
   background-color: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-index {
   cursor: pointer;
@@ -312,9 +322,13 @@ li {
 .team-card-sm-item:hover .team-card-sm-item:focus .team-card-sm {
   fill: var(--color-secondary);
   text-align: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-card-sm-item:hover svg {
   fill: #ffff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-card-sm {
   fill: #afb1b8;
@@ -324,6 +338,8 @@ li {
   border: 1px solid var(--color-primary);
   background-color: var(--color-primary);
   fill: var(--color-secondary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-customers-title {
   font-size: 36px;
@@ -357,10 +373,14 @@ li {
 .logo-customer-item:hover .logo-customer,
 .logo-customer-item:focus .logo-customer {
   fill: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-customer-item:hover,
 .logo-customer-item:focus {
   border: 1px solid var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .background-footer {
   background: var(--background-color-dark);
@@ -403,6 +423,8 @@ li {
 .contact-footer:hover,
 .contact-footer:focus {
   color: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-portfolio-mail {
   margin: 9px 0;
@@ -445,6 +467,8 @@ li {
   border: 1px solid var(--color-primary);
   background-color: var(--color-primary);
   fill: var(--color-secondary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sm-footer {
   fill: #ffffff;
@@ -473,6 +497,8 @@ li {
 .button-portfolio:hover {
   color: var(--color-secondary);
   background-color: var(--color-primary);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list {
   display: flex;
@@ -486,6 +512,8 @@ li {
 .figure-portfolio:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .figure-portfolio {
   margin: 0;
@@ -531,6 +559,8 @@ li {
 }
 .figure-portfolio:hover .cover-box-text {
   transform: translateY(-100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   pointer-events: none;
