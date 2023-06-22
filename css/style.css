@@ -28,6 +28,7 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--main-font-color);
 }
 .header-view {
   border-bottom: 1px solid #ececec;
@@ -55,7 +56,6 @@ li {
   position: relative;
   top: 28px;
 }
-
 .underscore::after {
   content: "";
   position: absolute;
@@ -91,6 +91,7 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--main-font-color);
 }
 .menu-contact-list {
   display: flex;
@@ -113,11 +114,13 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--second-font-color);
 }
 .menu-contact-link:hover svg {
   fill: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--second-font-color);
 }
 .logo {
   font-family: "Raleway";
@@ -142,6 +145,7 @@ li {
   background-color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--background-color-medium);
 }
 .button-index {
   cursor: pointer;
@@ -324,11 +328,13 @@ li {
   text-align: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--background-color-medium);
 }
 .team-card-sm-item:hover svg {
   fill: #ffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--second-font-color);
 }
 .team-card-sm {
   fill: #afb1b8;
@@ -340,6 +346,7 @@ li {
   fill: var(--color-secondary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color-secondary);
 }
 .section-customers-title {
   font-size: 36px;
@@ -375,12 +382,14 @@ li {
   fill: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color #afb1b8;
 }
 .logo-customer-item:hover,
 .logo-customer-item:focus {
   border: 1px solid var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color #afb1b8;
 }
 .background-footer {
   background: var(--background-color-dark);
@@ -425,6 +434,7 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color-secondary);
 }
 .footer-portfolio-mail {
   margin: 9px 0;
@@ -469,6 +479,7 @@ li {
   fill: var(--color-secondary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--background-color-dark);
 }
 .sm-footer {
   fill: #ffffff;
@@ -499,6 +510,7 @@ li {
   background-color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color-secondary-grey);
 }
 .portfolio-list {
   display: flex;
@@ -514,6 +526,7 @@ li {
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
 }
 .figure-portfolio {
   margin: 0;
@@ -551,8 +564,6 @@ li {
   padding-top: 49px;
   padding-right: 45px;
   padding-bottom: 49px;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   left: 0;
   right: 0;
@@ -561,6 +572,7 @@ li {
   transform: translateY(-100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color-secondary-grey);
 }
 .is-hidden {
   pointer-events: none;
@@ -578,8 +590,6 @@ li {
   z-index: 1;
   cursor: not-allowed;
   transform: scale(1);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close {
   border: none;
