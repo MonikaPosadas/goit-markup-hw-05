@@ -28,7 +28,7 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--main-font-color);
+  transition-property: color;
 }
 .header-view {
   border-bottom: 1px solid #ececec;
@@ -91,7 +91,7 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--main-font-color);
+  transition-property: color;
 }
 .menu-contact-list {
   display: flex;
@@ -114,13 +114,13 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--second-font-color);
+  transition-property: color;
 }
 .menu-contact-link:hover svg {
   fill: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--second-font-color);
+  transition-property: fill;
 }
 .logo {
   font-family: "Raleway";
@@ -145,7 +145,7 @@ li {
   background-color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--background-color-medium);
+  transition-property: background-color;
 }
 .button-index {
   cursor: pointer;
@@ -328,13 +328,13 @@ li {
   text-align: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--background-color-medium);
+  transition-property: fill;
 }
 .team-card-sm-item:hover svg {
   fill: #ffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--second-font-color);
+  transition-property: fill;
 }
 .team-card-sm {
   fill: #afb1b8;
@@ -346,7 +346,7 @@ li {
   fill: var(--color-secondary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color-secondary);
+  transition-property: background-color;
 }
 .section-customers-title {
   font-size: 36px;
@@ -382,14 +382,14 @@ li {
   fill: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color #afb1b8;
+  transition-property: fill;
 }
 .logo-customer-item:hover,
 .logo-customer-item:focus {
   border: 1px solid var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color #afb1b8;
+  transition-property: color;
 }
 .background-footer {
   background: var(--background-color-dark);
@@ -434,7 +434,7 @@ li {
   color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color-secondary);
+  transition-property: color;
 }
 .footer-portfolio-mail {
   margin: 9px 0;
@@ -479,7 +479,7 @@ li {
   fill: var(--color-secondary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--background-color-dark);
+  transition-property: background-color;
 }
 .sm-footer {
   fill: #ffffff;
@@ -510,7 +510,7 @@ li {
   background-color: var(--color-primary);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color-secondary-grey);
+  transition-property: background-color;
 }
 .portfolio-list {
   display: flex;
@@ -572,7 +572,6 @@ li {
   transform: translateY(-100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color-secondary-grey);
 }
 .is-hidden {
   pointer-events: none;
